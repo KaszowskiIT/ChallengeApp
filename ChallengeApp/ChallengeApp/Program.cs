@@ -1,20 +1,20 @@
 ﻿var name = "Ewa";
-var plec = "kobieta";
-int age = 33;
+var sex = "kobieta";
+var age = 33;
 
-if (plec == "kobieta" && age < 30)
+if (sex == "kobieta" && age < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
-else if (name == "Ewa" && plec == "kobieta" && age == 33)
+else if (sex == "kobieta" && age == 33 && name == "Ewa")
 {
-    Console.WriteLine("Ewa lat 33");
+    Console.WriteLine("Ewa, lat 33");
 }
-else if (plec == "mezczyzna" && age > 18)
+else if (sex == "mezczyzna" && age > 18)
 {
-    Console.WriteLine("Niepełnoletni mężczyzna");
+    Console.WriteLine("Niepelnoletni mezczyzna");
 }
 else
 {
-    Console.WriteLine("Niepoprawne dane");
+    Console.WriteLine("Złe dane");
 }
